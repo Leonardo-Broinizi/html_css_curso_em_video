@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? Esperimente ampliar o tamanho da sua janela para aproveitar a melhor experiancia &#x1F92F &#x1F44D.</p>
+    <picture>
+        <source src="imagens/paisagem-p.png" type="image/png" srcset="imagens/paisagem-p.png" media="(max-width: 500px)">
+        <source src="imagens/paisagem-m.png" type="image/png" srcset="imagens/paisagem-m.png" media="(max-width: 900px)">
+        <img src="imagens/paisagem-g.png" alt="paisagem mulher de costas e braços abertos olhando para o desfiladeiro">
+    </picture>
+</body>
+</html>
