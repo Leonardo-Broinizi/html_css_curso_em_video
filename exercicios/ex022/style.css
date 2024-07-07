@@ -1,0 +1,45 @@
+/* .quadrado {
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    height: 1500px;
+    background-attachment: fixed;
+}
+
+.quadrado {
+    display:inline-block;
+    margin:5px;
+    width:300px;
+    height:300px;
+    background-color:lightgray;
+    border:2px solid black;
+    border-radius:20px;
+}
+
+#q1 {
+    background-color: skyblue;
+}
+
+#q2 {
+    background-image:linear-gradient(to bottom, yellow, red);
+}
+
+#q3 {
+    background-image:url('pattern003.png');
+} */
+ * {
+    margin:0px;
+ }
+div#fora {
+    height:96vh;
+    background-color: #bd7df5;
+    position:relative;
+}
+
+div#dentro {
+    height:200px;
+    width:300px;
+    background-color: #f5ff48;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
