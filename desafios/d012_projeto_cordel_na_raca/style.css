@@ -12,12 +12,15 @@ header {
     color:white;
     background-color: black;
     text-align: center;
-    height:190px;
+    padding:50px;
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
-    font-size: 3em;
+    font-size: 7vh;
+}
+h2 {
+    font-size:1em;
 }
  
 a {
@@ -29,22 +32,33 @@ a:hover {
     text-decoration: underline;
 }
 
-.p_poema {
+.p_poema, .text_image {
     font-family: "Sriracha";
-    font-size: 130%;
+    font-size: 3vh;
     text-align: left;
-    width: 50%;
-    padding: 50px 35px 30px 20px;
+    margin: 60px 40px 30px 30px;
+    line-height:2em;
 }
 #joaninha {
     background-image: url(imagens/background001.jpg);
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:10px;
 }
 #folhas {
-
+    background: url(imagens/background002.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:10px;
 }
 .text_image {
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.301);
     color:white;
+    text-shadow: 1px 1px 2px black;
 }
 footer {
     background-color: black;
