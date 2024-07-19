@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
 .sriracha-regular {
     font-family: "Sriracha", cursive;
 }
@@ -7,7 +6,6 @@
     padding: 0px;
     margin: 0px;
 }
-
 header {
     color:white;
     background-color: black;
@@ -18,30 +16,31 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
     font-size: 7vh;
+    padding-bottom:20px;
 }
 h2 {
     font-size:1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
 }
- 
 a {
     color:white;
     text-decoration: none;
+    font-weight:bolder;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 .p_poema, .text_image {
     font-family: "Sriracha";
-    font-size: 3vh;
+    font-size: 150%;
     text-align: left;
-    margin: 60px 40px 30px 30px;
+    margin: 60px 40px 100px 30px;
     line-height:2em;
 }
 #joaninha {
     background-image: url(imagens/background001.jpg);
-    background-position:left;
+    background-position:right center;
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -49,16 +48,18 @@ a:hover {
 }
 #folhas {
     background: url(imagens/background002.jpg);
-    background-position:center center;
+    background-position:left center;
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
     padding:10px;
 }
 .text_image {
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.5);
     color:white;
     text-shadow: 1px 1px 2px black;
+    padding-left: 5px;
+    width:300px;
 }
 footer {
     background-color: black;
@@ -66,6 +67,8 @@ footer {
 .p_footer {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
     text-align: center;
     width: auto;
+    padding: 10px;
 }
