@@ -1,11 +1,11 @@
-@charset "UTF-8"; /* Normalmente esqueço de colocar essa regra em meus CSS. Até hoje isso não causou problemas em meus arquivos (que eu tenha notado), mas vou me atentar mais a isso e pesquisar sobre para entender melhor a necessidade de uso. */
+@charset "UTF-8"; /* Normalmente esqueço de colocar essa regra em meus CSS. Até hoje isso não causou problemas em meus arquivos (que eu tenha notado), mas vou me atentar mais a isso e pesquisar sobre para entender melhor a necessidade de uso. (obs.: talvez por usar UTF-8 no html eu não precise declarar nas css, preciso pesquisar mais sobre isso)*/
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 :root {
     --fonte1: verdana, geneva, tahoma, sans-serif;
     --fonte2: "Passion One", sans-serif;
     --fonte3: "Sriracha", cursive;
-}
+} 
 
 
  * {

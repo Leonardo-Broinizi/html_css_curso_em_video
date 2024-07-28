@@ -10,8 +10,8 @@ table {
 
 td {
     border: 1px solid black;
-    text-align: center; /* Alinhamento horizontal */
-    vertical-align: top; /* Alinhanento vertical */
+    text-align: top; /* Alinhamento horizontal */
+    vertical-align: center; /* Alinhanento vertical */
 }
 
 .numero {
