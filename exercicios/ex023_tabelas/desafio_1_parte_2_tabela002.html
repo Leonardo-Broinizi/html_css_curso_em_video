@@ -11,6 +11,7 @@
         table {
             border-collapse: collapse;
             width: 500px;
+            position:relative;
         }
         caption {
             font-size: 1.5em;
@@ -22,8 +23,17 @@
             border: 1px, solid, black;
             padding: 10px;
         }
-        tbody > tr:nth-child(even) {
+        thead > tr > th {
+            position: sticky;
+            top:-1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even)/*A pseudo-classe nth'-child() é usada para selecionar determinadas linhas de uma tabela. Declarando dentro de parêntesis o valor 'even', como nesse exemplo, todas as linhas pares serão selecionadas. Existem outras possibilidades de selecionar também. */ {
             background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: aliceblue;
         }
         thead, tfoot {
             background-color: grey;
