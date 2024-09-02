@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="#" method="get" autocomplete="on">
+
+        <p>  
+            <label for="iano">Em que ano você nasceu? </label>
+            <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output id="iidade">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+         function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- 
+Eu havia feito, sem ver o código do professor e de maneira mais simples que ele, o seguinte código 'inline': 
+<p>  
+    <label for="iano">Em que ano você nasceu? </label>
+    <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="iidade.innerHTML = Number(2024 - iano.value)">
+</p>
+-->
+
+<!-- /* Eu também criei esse código antes de ver o professor criar o dele (aliás, eu havia visto apenas a primeira linha, com o objeto Date) dentro da tag script. O código do professor ficou bem mais simples que o meu, mas gosto de tentar fazer antes dele para por à prova o que tenho aprendido: 
+
+            let atual = new Date().getFullYear()
+            let ano = document.getElementById('iano').value
+            let idade = document.getElementById('iidade')
+            let res = atual - ano
+            idade.innerHTML = (res) */
+-->
